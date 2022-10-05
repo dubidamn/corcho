@@ -19,8 +19,8 @@ jobs:
 
       - name: Install and run
         env:
-          FIGMA_TOKEN: ${{ figd_BHPdBQLaUH5BsECJN_T8NOhoOX5tSm5_CeAfhP7j }}
-          FIGMA_FILE: ${{ 6ibuGlqZtWFJq1IgMpCARu }}
+          figd_BHPdBQLaUH5BsECJN_T8NOhoOX5tSm5_CeAfhP7j: ${{ secrets.FIGMA_TOKEN }}
+          6ibuGlqZtWFJq1IgMpCARu: ${{ secrets.FIGMA_FILE }}
         run: yarn && node app.js
 
       - uses: EndBug/add-and-commit@v7
