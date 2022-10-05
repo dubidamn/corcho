@@ -8,8 +8,8 @@ const Extractor = require('figma-extractor')
 const DATA_FILE = 'data.json'
 const IMAGE_PATH= 'data'
 
-const FIGMA_TOKEN = process.env.figd_1YSLvirvoeftsGrA2LtpV4By1lKGRloAqJoh86Oy
-const FIGMA_FILE = process.env.6ibuGlqZtWFJq1IgMpCARu
+const figd_1YSLvirvoeftsGrA2LtpV4By1lKGRloAqJoh86Oy = process.env.FIGMA_TOKEN
+const 6ibuGlqZtWFJq1IgMpCARu = process.env.FIGMA_FILE
 
 const OPTIONS = {
   format: 'svg',
